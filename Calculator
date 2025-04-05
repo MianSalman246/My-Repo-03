@@ -18,5 +18,8 @@ class Program
         {
             Console.WriteLine($"Digit {i + 1}: {rollNumber[i]}");
         }
+
+        int a = 5, b = 7;
+        Console.WriteLine($"\nThe sum of a and b is: {a + b}");
     }
 }
