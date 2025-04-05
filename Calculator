@@ -7,16 +7,13 @@ class Program
         string name = "Mian Salman";
         string rollNumber = "24-ST-071";
 
-        Console.WriteLine("Name:");
-        for (int i = 0; i < name.Length; i++)
-        {
-            Console.WriteLine($"Letter {i + 1}: {name[i]}");
-        }
+        Console.WriteLine("Name: " + name);
+        Console.WriteLine("Roll Number: " + rollNumber);
 
-        Console.WriteLine("\nRoll Number:");
-        for (int i = 0; i < rollNumber.Length; i++)
-        {
-            Console.WriteLine($"Digit {i + 1}: {rollNumber[i]}");
-        }
+        int a = 5;  
+        int b = 7;  
+    
+        int product = a * b;
+        Console.WriteLine($"The multiplication of {a} and {b} is: {product}");
     }
 }
