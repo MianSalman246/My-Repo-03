@@ -7,19 +7,35 @@ class Program
         string name = "Mian Salman";
         string rollNumber = "24-ST-071";
 
-        Console.WriteLine("Name:");
-        for (int i = 0; i < name.Length; i++)
-        {
-            Console.WriteLine($"Letter {i + 1}: {name[i]}");
-        }
+        Console.WriteLine("Name: " + name);
+        Console.WriteLine("Roll Number: " + rollNumber);
 
-        Console.WriteLine("\nRoll Number:");
-        for (int i = 0; i < rollNumber.Length; i++)
+        int a = 5;  
+        int b = 7;  
+        Multiplication
+        Division
+
+        if (b != 0)  
         {
-            Console.WriteLine($"Digit {i + 1}: {rollNumber[i]}");
+            double division = (double)a / b;
+            Console.WriteLine($"The division of {a} by {b} is: {division}");
         }
+        else
+        {
+            Console.WriteLine("Division by zero is not allowed.");
+        }
+        Subtraction
+    
+        int product = a * b;
+        Console.WriteLine($"The multiplication of {a} and {b} is: {product}");
+        Multiplication
+        
+        int difference = a - b;
+        Console.WriteLine($"The difference when {a} is subtracted from {b} is: {difference}");
+        SubtractioN
 
         int a = 5, b = 7;
         Console.WriteLine($"\nThe sum of a and b is: {a + b}");
+        Addition
     }
 }
