@@ -24,6 +24,7 @@ class Program
         {
             Console.WriteLine("Division by zero is not allowed.");
         }
+        Subtraction
     
         int product = a * b;
         Console.WriteLine($"The multiplication of {a} and {b} is: {product}");
@@ -31,6 +32,10 @@ class Program
         
         int difference = a - b;
         Console.WriteLine($"The difference when {a} is subtracted from {b} is: {difference}");
-        Subtraction
+        SubtractioN
+
+        int a = 5, b = 7;
+        Console.WriteLine($"\nThe sum of a and b is: {a + b}");
+        Addition
     }
 }
