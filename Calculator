@@ -12,6 +12,7 @@ class Program
 
         int a = 5;  
         int b = 7;  
+        Multiplication
         Division
 
         if (b != 0)  
@@ -27,5 +28,9 @@ class Program
         int product = a * b;
         Console.WriteLine($"The multiplication of {a} and {b} is: {product}");
         Multiplication
+        
+        int difference = a - b;
+        Console.WriteLine($"The difference when {a} is subtracted from {b} is: {difference}");
+        Subtraction
     }
 }
