@@ -12,6 +12,7 @@ class Program
 
         int a = 5;  
         int b = 7;  
+        Division
 
         if (b != 0)  
         {
@@ -22,5 +23,9 @@ class Program
         {
             Console.WriteLine("Division by zero is not allowed.");
         }
+    
+        int product = a * b;
+        Console.WriteLine($"The multiplication of {a} and {b} is: {product}");
+        Multiplication
     }
 }
